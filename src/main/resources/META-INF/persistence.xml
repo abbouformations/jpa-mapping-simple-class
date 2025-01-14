@@ -4,7 +4,7 @@
 	<persistence-unit name="unite1"
 		transaction-type="RESOURCE_LOCAL">
 		<!-- provider -->
-		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
 			<!-- Classes persistantes -->
 			<property name="hibernate.archive.autodetection"
